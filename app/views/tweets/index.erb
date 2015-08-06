@@ -1,0 +1,8 @@
+<section>Hello World</section>
+<section>
+  <ul>
+  <% @tweets.each do |tweet| %>
+    <li><strong><%=tweet.author %></strong>: <%= tweet.newbody %></li>
+  <% end %>
+  </ul>
+</section>
